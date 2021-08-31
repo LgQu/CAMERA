@@ -54,13 +54,13 @@ Run `train.py`:
 For MSCOCO:
 
 ```bash
-python train.py --data_path $DATA_PATH --bert_path $BERT_PATH --data_name coco_precomp --logger_name runs/coco_CMSN --max_violation --num_epochs 40 --lr_update 20
+python train.py --data_path $DATA_PATH --bert_path $BERT_PATH --data_name coco_precomp --logger_name runs/coco --max_violation --num_epochs 40 --lr_update 20
 ```
 
 For Flickr30K:
 
 ```bash
-python train.py --data_path $DATA_PATH --bert_path $BERT_PATH --data_name f30k_precomp --logger_name runs/filker_CMSN --max_violation --num_epochs 30 --lr_update 10
+python train.py --data_path $DATA_PATH --bert_path $BERT_PATH --data_name f30k_precomp --logger_name runs/flickr --max_violation --num_epochs 30 --lr_update 10
 ```
 
 ## Evaluate trained models
